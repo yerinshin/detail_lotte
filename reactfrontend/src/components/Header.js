@@ -118,7 +118,8 @@ class Header extends React.Component {
                     margin="normal"
                     variant="outlined"
                   ></TextField>
-                   <IconButton className = {classes.iconButton1}> 
+                  <div style={{marginLeft : "150px"}}>
+                  <IconButton className = {classes.iconButton1}> 
                     <InsertCommentOutlinedIcon />
                   </IconButton>
                   <IconButton className={classes.iconButton1}>
@@ -137,6 +138,26 @@ class Header extends React.Component {
                   >
                     <LocalGroceryStoreIcon />
                   </IconButton>
+                  </div>
+                   {/* <IconButton className = {classes.iconButton1}> 
+                    <InsertCommentOutlinedIcon />
+                  </IconButton>
+                  <IconButton className={classes.iconButton1}>
+                    <FavoriteBorderIcon />
+                  </IconButton>
+                  <IconButton
+                    className={classes.iconButton1}
+                    style={{ width: 75 }}
+                  >
+                    <PersonOutlineIcon />
+                  </IconButton>
+                  <IconButton
+                    t
+                    className={classes.iconButton1}
+                    fontSize="large"
+                  >
+                    <LocalGroceryStoreIcon />
+                  </IconButton> */}
 
                   <Grid container spacing={7}>
                     <Grid item xs={8} />
