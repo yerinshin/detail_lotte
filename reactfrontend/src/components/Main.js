@@ -439,12 +439,12 @@ class Main extends Component {
               <div
                 style={{
                   borderTop: "1px solid black",
-                  paddingTop : "80px",
+                  // paddingTop : "5px",
                   marginTop: "240px",
                   marginLeft: "80px",
                 }}
               >
-                <div style={{ width: "60%", display: "inline" }}>
+                <div style={{ width: "60%", display: "inline", marginBottom : "30px"}}>
                   <Tab label="상세정보" />
                   <Tab label="리뷰(33)" />
                   <Tab label="Q&A(1)" />
@@ -559,26 +559,28 @@ class Main extends Component {
                     바로 구매하기
                   </Button>
                 </div>
+                
                 <div
                   style={{
                     width: "64%",
                     borderBottom: "1px solid lightgray",
-                    marginTop: "-890px",
+                    marginTop: "-840px",
                   }}
-                ></div>
+                >
+              </div>
                 <div
                   style={{
                     width: "64%",
                     fontSize: "8px",
                     color: "red",
                     textAlign: "center",
+                    paddingTop : "10px",
                   }}
                 >
-                  <div marginTop>
-                  <h6>
+                  <p>
                     판매자가 자신의계좌로 직접 현금 입금을 유도한다면 절대
                     입금하지 마시고 롯데ON으로 신고 해주세요.
-                  </h6>
+                  </p>
                   <Accordion>
                     <AccordionSummary
                       expandIcon={<ExpandMoreIcon />}
@@ -594,10 +596,11 @@ class Main extends Component {
                         >
                           <h8>필수표기정보 더보기</h8>
                         </div>
+            
                         <br></br>
                       </Typography>
                     </AccordionSummary>
-
+                    
                     <AccordionDetails>
                       <Typography>
                         <h8>
@@ -633,9 +636,11 @@ class Main extends Component {
                         </h8>
                       </Typography>
                     </AccordionDetails>
+                    
                   </Accordion>
+                  
                   </div>
-                </div>
+               
 
                 <img
                   style={{ width: "720px", marginTop: "20px" }}

@@ -8,6 +8,7 @@ import IconButton from "@material-ui/core/IconButton";
 
 import TextField from "@material-ui/core/TextField";
 import LocalGroceryStoreIcon from "@material-ui/icons/LocalGroceryStore";
+import SearchIcon from "@material-ui/icons/Search";
 import PersonOutlineIcon from "@material-ui/icons/PersonOutline";
 import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
 import InsertCommentOutlinedIcon from "@material-ui/icons/InsertCommentOutlined";
@@ -118,7 +119,11 @@ class Header extends React.Component {
                     margin="normal"
                     variant="outlined"
                   ></TextField>
-                  <div style={{marginLeft : "150px"}}>
+                  <IconButton type="submit"  color= "secondary" className={classes.iconButton} aria-label="search">
+                  <SearchIcon />
+                  </IconButton>
+
+                  <div style={{marginLeft : "105px"}}>
                   <IconButton className = {classes.iconButton1}> 
                     <InsertCommentOutlinedIcon />
                   </IconButton>
@@ -139,25 +144,6 @@ class Header extends React.Component {
                     <LocalGroceryStoreIcon />
                   </IconButton>
                   </div>
-                   {/* <IconButton className = {classes.iconButton1}> 
-                    <InsertCommentOutlinedIcon />
-                  </IconButton>
-                  <IconButton className={classes.iconButton1}>
-                    <FavoriteBorderIcon />
-                  </IconButton>
-                  <IconButton
-                    className={classes.iconButton1}
-                    style={{ width: 75 }}
-                  >
-                    <PersonOutlineIcon />
-                  </IconButton>
-                  <IconButton
-                    t
-                    className={classes.iconButton1}
-                    fontSize="large"
-                  >
-                    <LocalGroceryStoreIcon />
-                  </IconButton> */}
 
                   <Grid container spacing={7}>
                     <Grid item xs={8} />
