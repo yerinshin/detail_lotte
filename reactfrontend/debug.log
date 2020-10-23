@@ -1,0 +1,12 @@
+[1023/002223.890:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+[1023/064205.631:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\dpfls\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\bfca29f9-0fd6-4406-af7f-7bec2fbabe14: 지정된 경로를 찾을 수 없습니다. (0x3)
+[1023/075249.002:ERROR:minidumpwritedump_with_crashpad_info.cc(452)] Failed to call MiniDumpWriteDump: 이 작업을 완료하기 위한 페이징 파일이 너무 작습니다. (0x800705AF)
+[1023/075249.004:ERROR:minidumpwritedump_with_crashpad_info.cc(661)] Failed to write minidump file
+[1023/075249.004:ERROR:crash_report_exception_handler.cc(134)] TryMiniDumpWriteDumpWithCrashpadInfo failed
+[1023/075249.010:ERROR:process_info.cc(359)] UncheckedAllocate
+[1023/075249.038:ERROR:minidumpwritedump_with_crashpad_info.cc(452)] Failed to call MiniDumpWriteDump: 이 작업을 완료하기 위한 페이징 파일이 너무 작습니다. (0x800705AF)
+[1023/075249.038:ERROR:minidumpwritedump_with_crashpad_info.cc(661)] Failed to write minidump file
+[1023/075249.039:ERROR:crash_report_exception_handler.cc(134)] TryMiniDumpWriteDumpWithCrashpadInfo failed
+[1023/075249.044:ERROR:process_info.cc(359)] UncheckedAllocate
+[1023/075249.055:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\dpfls\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\251a8ad5-073e-45a1-ae9d-19f809edfc00: 지정된 경로를 찾을 수 없습니다. (0x3)
+[1023/075252.154:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\dpfls\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\5ab61003-c2ac-49a1-86b1-08cd80f8904e: 지정된 경로를 찾을 수 없습니다. (0x3)
